@@ -1,0 +1,36 @@
+footer
+    {height: 220px; width: 100%; background: black; position: relative; top: 569px}
+
+h1
+    {text-align: center; color: white; padding: 10px; animation: foot 2s infinite; }
+
+@keyframes foot 
+{
+    0%{transform:rotateY(360deg)}
+}
+
+#contact
+    {height: 130px; width: 18%; position: absolute; left: 75%;}
+
+
+#contact li
+    {color: white; line-height: 45px; list-style: none; font-size: 20px; }
+
+p
+    {color: white; position: absolute; font-size: 20px; width: 30%; height: auto; left: 37%; bottom: 40px;  }
+
+#contact2
+    {height: 130px; width: 18%; position: absolute; left: 11%; border-left: 1px solid white; padding: 0px 15px;}
+
+#contact2 li
+    {color: white; line-height: 45px; list-style: none; font-size: 20px;  }
+
+
+
+
+
+
+    
+
+
+    

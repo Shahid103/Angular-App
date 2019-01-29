@@ -1,0 +1,5 @@
+section
+    {height: 790px; width: 100%; position: relative;}
+
+section img
+    {position: absolute; width: 100%; height: 790px;  }

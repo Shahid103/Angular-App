@@ -1,0 +1,25 @@
+section
+    {height: 700px; width: 100%; position: relative; top: 80px; overflow: hidden} 
+
+section h1
+    {text-align: center; margin-top: 20px; font-size: 35px;}
+
+article
+    {height: 460px; width: 450px; margin:20px 30px; float: left; position: relative; left: 20px; border-top: 1px solid; border-bottom: 1px solid; 
+    border-right: 1px solid; top: 10px; }
+
+article img 
+    {width: 100%; height: 400px; opacity: 1;}
+
+article p 
+    {text-align: justify; position: absolute; bottom: -180px; border: 1px solid ; border-radius: 20px; padding: 10px; color: white; 
+    background: black;  animation: move 1s linear; text-indent: 30px}
+
+article p::first-letter 
+    {font-size: 30px;}
+
+@keyframes move 
+{
+    0%{transform: translatey(50px); opacity:0;}
+    100%{transform: translatey(0px); opacity:1;}
+}
